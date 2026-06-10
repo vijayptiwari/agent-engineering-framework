@@ -5,7 +5,9 @@
 **A practitioner framework for designing, building, and operating reliable AI agents beyond demos**
 
 **Author:** Vijay Prakash Tiwari
+
 **Version:** 1.2 (publication-ready)
+
 **Date:** June 2026
 
 ---
