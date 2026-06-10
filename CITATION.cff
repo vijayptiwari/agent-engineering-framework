@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: >-
+  The AI Agent Engineering & Development Framework:
+  The 10 Pillars of Production Agent Engineering
+message: "If you use or reference this framework, please cite it as below."
+type: dataset
+authors:
+  - given-names: Vijay Prakash
+    family-names: Tiwari
+version: "1.2"
+date-released: "2026-06-10"
+license: CC-BY-4.0
+abstract: >-
+  A practitioner framework that reframes production AI agents as a
+  systems-engineering problem organized around ten coordinated disciplines:
+  Prompt, Goal, Trajectory, Context, Memory, Tool, Intelligence, Execution,
+  Governance, and Evaluation Engineering. Includes three worked case studies,
+  a six-phase development lifecycle, a CI/CD-for-agents model, a dual-evaluation
+  principle, and a production readiness rubric, synthesizing peer-reviewed
+  research with industry guidance and governance standards.
+keywords:
+  - AI agents
+  - agent engineering
+  - LLM
+  - production AI
+  - agent evaluation
+  - AI governance
