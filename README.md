@@ -18,7 +18,7 @@ A production agent is not `Prompt + LLM`. It is a **deterministic envelope aroun
 
 Prompt engineering is one pillar of ten. Reliability comes from the system around the model.
 
-📄 **[Read the full white paper →](whitepaper.md)** &nbsp;·&nbsp; 🧾 **[Production Readiness Rubric →](rubric/readiness-rubric.md)** &nbsp;·&nbsp; ✅ **[Design Checklist →](checklists/production-agent-checklist.md)**
+📄 **[Read the full white paper →](whitepaper.md)** &nbsp;·&nbsp; 🌐 **[Live site →](https://vijayptiwari.github.io/agent-engineering-framework/)** &nbsp;·&nbsp; 🧾 **[Production Readiness Rubric →](rubric/readiness-rubric.md)** &nbsp;·&nbsp; ✅ **[Design Checklist →](checklists/production-agent-checklist.md)**
 
 ---
 

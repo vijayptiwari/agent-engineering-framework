@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent Engineering Framework — 10 Pillars of Production Agent Engineering</title>
+  <meta name="description" content="Open practitioner framework by Vijay Prakash Tiwari — ten coordinated disciplines for building reliable production AI agents beyond prompt-only demos. White paper v1.2, readiness rubric, and design checklist.">
+  <meta name="author" content="Vijay Prakash Tiwari">
+  <link rel="canonical" href="https://vijayptiwari.github.io/agent-engineering-framework/">
+  <meta property="og:title" content="The AI Agent Engineering & Development Framework">
+  <meta property="og:description" content="Beyond Prompt Engineering: The 10 Pillars of Production Agent Engineering — white paper, rubric, and checklist.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://vijayptiwari.github.io/agent-engineering-framework/">
+  <style>
+    :root {
+      --bg: #0f1117;
+      --panel: #171b26;
+      --text: #e8ecf4;
+      --muted: #9aa3b5;
+      --accent: #7c5cff;
+      --accent-soft: rgba(124, 92, 255, 0.14);
+      --line: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(circle at top, #1a1630 0%, var(--bg) 45%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 20px 64px; }
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #c4b5fd;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 16px 0 8px; font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.15; }
+    .subtitle { color: var(--muted); font-size: 1.08rem; margin: 0 0 24px; }
+    .lead {
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--panel);
+      margin-bottom: 28px;
+    }
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 10px;
+      margin: 24px 0 32px;
+      padding: 0;
+      list-style: none;
+    }
+    .pillars li {
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--line);
+      font-size: 0.92rem;
+    }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+    a.btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 12px 18px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    a.btn-primary { background: var(--accent); color: #fff; }
+    a.btn-outline { border: 1px solid var(--line); color: var(--text); }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer a { color: #c4b5fd; }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="badge">v1.2 · CC BY 4.0 · Living document</span>
+    <h1>The AI Agent Engineering &amp; Development Framework</h1>
+    <p class="subtitle">Beyond Prompt Engineering: The 10 Pillars of Production Agent Engineering</p>
+
+    <div class="lead">
+      <p>
+        A production agent is not <code>Prompt + LLM</code>. It is a
+        <strong>deterministic envelope around a probabilistic core</strong> — the model reasons;
+        everything around it makes the system reliable.
+      </p>
+      <p style="margin-top:12px;margin-bottom:0;">
+        By <strong>Vijay Prakash Tiwari</strong> · June 2026 · 35 cited sources
+      </p>
+    </div>
+
+    <h2>The 10 pillars</h2>
+    <ul class="pillars">
+      <li>1. Prompt Engineering</li>
+      <li>2. Goal Engineering</li>
+      <li>3. Trajectory Engineering</li>
+      <li>4. Context Engineering</li>
+      <li>5. Memory Engineering</li>
+      <li>6. Tool Engineering</li>
+      <li>7. Intelligence Engineering</li>
+      <li>8. Execution Engineering</li>
+      <li>9. Governance Engineering</li>
+      <li>10. Evaluation Engineering</li>
+    </ul>
+
+    <div class="actions">
+      <a class="btn btn-primary" href="https://github.com/vijayptiwari/agent-engineering-framework/blob/main/whitepaper.md">Read white paper</a>
+      <a class="btn btn-outline" href="https://github.com/vijayptiwari/agent-engineering-framework/blob/main/rubric/readiness-rubric.md">Production rubric</a>
+      <a class="btn btn-outline" href="https://github.com/vijayptiwari/agent-engineering-framework/blob/main/checklists/production-agent-checklist.md">Design checklist</a>
+      <a class="btn btn-outline" href="https://github.com/vijayptiwari/agent-engineering-framework/releases/tag/v1.2">Release v1.2</a>
+      <a class="btn btn-outline" href="https://vijayptiwari.github.io/">Author portfolio</a>
+    </div>
+
+    <footer>
+      <p>
+        Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+        Source on <a href="https://github.com/vijayptiwari/agent-engineering-framework">GitHub</a>.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
