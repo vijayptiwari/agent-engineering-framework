@@ -4,9 +4,11 @@
 
 > A practitioner framework for designing, building, and operating reliable AI agents — not prompt-only demos.
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](LICENSE.md)
 ![Status](https://img.shields.io/badge/status-v1.2%20living%20document-brightgreen)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange)
+
+Part of the [White Papers collection](https://github.com/vijayptiwari/whitepapers).
 
 ---
 
